@@ -15,4 +15,10 @@ export default defineNuxtConfig({
       showURL: true,
     },
   },
+  nitro: {
+    preset: "github_pages",
+  },
+  app: {
+    baseURL: '/ivory-deuce-rp/'
+  }
 });
