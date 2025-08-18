@@ -24,4 +24,5 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/ivory-deuce-rp/",
   },
+  ssr: true,
 });
