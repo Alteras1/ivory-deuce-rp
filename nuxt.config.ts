@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxt/content", "@nuxt/eslint", "@nuxt/fonts"],
+  routeRules: {
+    "/": { prerender: true },
+  },
   css: ["~/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
@@ -19,6 +22,6 @@ export default defineNuxtConfig({
     preset: "github_pages",
   },
   app: {
-    baseURL: '/ivory-deuce-rp/'
-  }
+    baseURL: "/ivory-deuce-rp/",
+  },
 });
