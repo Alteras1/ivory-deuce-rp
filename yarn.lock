@@ -8960,6 +8960,11 @@ vue-component-meta@^3.0.3:
     "@vue/language-core" "3.0.5"
     path-browserify "^1.0.1"
 
+vue-component-type-helpers@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-3.0.5.tgz#f380315ba3fcfaa49982a66cbb4d4b584edb70b4"
+  integrity sha512-uoNZaJ+a1/zppa/Vgmi8zIOP2PHXDN2rT8NyF+zQRK6ZG94lNB9prcV0GdLJbY9i9lrD47JOVIH92SaiA7oJ1A==
+
 vue-devtools-stub@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/vue-devtools-stub/-/vue-devtools-stub-0.1.0.tgz#a65b9485edecd4273cedcb8102c739b83add2c81"
