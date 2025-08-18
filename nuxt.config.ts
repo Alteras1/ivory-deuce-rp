@@ -17,6 +17,9 @@ export default defineNuxtConfig({
       port: 4000,
       showURL: true,
     },
+    preview: {
+      api: "https://api.nuxt.studio",
+    },
   },
   nitro: {
     preset: "github_pages",
